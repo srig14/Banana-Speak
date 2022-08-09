@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&display=swap');
+
+body{
+    font-family: 'Bahianita', cursive;
+    margin : 0;
+    background-color: #fef3c7;
+}
+
+h1{
+    font-size: 3rem;
+    display : inline;
+    color : rgb(247, 247, 28);
+    
+}
+img{
+    display : inline;
+    max-width : 150px;
+}
+#txt-input{
+    display : block;
+    font-family: 'Bahianita', cursive;
+    font-size: 2rem;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    
+}
+
+#header-heading{
+    text-align: center;
+    background-color: black;
+    padding-bottom:1rem;
+    border-top-left-radius: 0.5rem;
+}
+
+#txt-output {
+    border : 1px solid black;
+    font-size: 2rem;
+    color : yellow;
+    background-color: black;
+    border-radius: 0.5rem;
+    
+}
+
+#txt-input, #txt-output{            
+    width : 80%;
+    height : 10vh;
+    margin : 2rem auto;
+    padding : 2rem;
+}
+
+#translate{
+   
+    font-family: 'Bahianita', cursive;
+    font-size: 1.5rem;
+    color : yellow;
+    background-color: black;
+    border-radius: 0.5rem;
+    padding : 0 1rem;
+    
+}
+
+#translate-div{
+    
+    text-align : center;
+
+}
+
+#non-bullet{
+    list-style: none;
+}
+
+#link{
+    
+    display : inline;
+    padding : 0 1rem;
+    
+    
+}
+
+#link-decor{
+    text-decoration: none;
+    text-align : center;
+    font-size: 1.3rem;
+    color : black;
+}
+
+.footer {
+    text-align: center;
+    color : black;
+    background-color: yellow;
+    padding : 1px;
+    border-bottom-right-radius : 0.5rem;
+}
+
+#footer-heading > h3{
+    font-size: 1.3rem;
+   
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
