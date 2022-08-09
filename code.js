@@ -8,6 +8,7 @@ function getUrlTranslation(text){
     return url + '?' + 'text=' + text
 }
 
+//erorhandler
 function errorHandler(error){
     alert('error occured | ' + error)
 }
