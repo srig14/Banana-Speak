@@ -8,6 +8,9 @@ function getUrlTranslation(text){
     return url + '?' + 'text=' + text
 }
 
+function errorHandler(error){
+    alert('error occured | ' + error)
+}
 translate.addEventListener("click", function(){
     let inputText = txtInput.value
     console.log(inputText)
@@ -16,5 +19,6 @@ translate.addEventListener("click", function(){
         .then(json => {
             txtOutput.innerText = json.contents.translated
         })
-})
+        .catch(errorHandler)
+})  
 
